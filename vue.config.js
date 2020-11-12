@@ -18,7 +18,8 @@ const config = {
       }
     }
   },
-  publicPath: "/doyoung0205.github.io/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/hidyorg.github.io/" : "/",
   outputDir: "docs"
 };
 
