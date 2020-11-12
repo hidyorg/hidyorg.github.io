@@ -3,7 +3,7 @@
     <main id="app-main" class="container">
       <section>
         <h1>
-          Nice To meet you !<br />
+          Nice To meet you!<br />
           We are <span class="big-heading">Alley</span
           ><span class="period-mark">.</span>
         </h1>
@@ -50,10 +50,9 @@ export default Vue.extend({});
 //   // background-image: linear-gradient(10deg, #ffecd2 0%, #fcb69f 100%);
 //   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
 // }
-main {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
