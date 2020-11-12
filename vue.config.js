@@ -4,23 +4,23 @@
 
 /** @type {Options} */
 const config = {
-  devServer: {
-    overlay: false
-  },
-  css: {
-    loaderOptions: {
-      scss: {
-        prependData: `
-        @import "@/assets/styles/fonts.scss";
-        @import "@/assets/styles/init.scss";
-        @import "@/assets/styles/common.scss";
-        `
-      }
-    }
-  },
   publicPath:
     process.env.NODE_ENV === "production" ? "/hidyorg.github.io/" : "/",
-  outputDir: "docs"
+  outputDir: "docs",
+  devServer: {
+    overlay: false
+  }
+  // css: {
+  //   loaderOptions: {
+  //     scss: {
+  //       prependData: `
+  //       @import "@/assets/styles/fonts.scss";
+  //       @import "@/assets/styles/init.scss";
+  //       @import "@/assets/styles/common.scss";
+  //       `
+  //     }
+  //   }
+  // }
 };
 
 module.exports = config;
