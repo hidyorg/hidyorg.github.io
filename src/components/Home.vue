@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-    <header id="app-header"></header>
     <main id="app-main" class="container">
       <section>
         <h1>
-          Nice To meet you!<br />
+          Nice To meet you !<br />
           We are <span class="big-heading">Alley</span
           ><span class="period-mark">.</span>
         </h1>
@@ -16,17 +15,16 @@
         </p>
       </section>
       <section>
-        <h2>4월 19일 출시 예정<span class="period-mark">.</span></h2>
+        <h2>Be set to be released<span class="period-mark">.</span></h2>
       </section>
       <section>
         <h2>
           <a class="special-anchor" href="mailto:doyoung0205@naver.com"
-            >doyoung0205@naver.com</a
+            >Please send it via e-mail</a
           >
         </h2>
       </section>
     </main>
-    <footer id="app-footer"></footer>
   </div>
 </template>
 <script lang="ts">
@@ -35,22 +33,27 @@ export default Vue.extend({});
 </script>
 
 <style lang="scss">
-body:before {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 10px;
-  background: #00d2ff;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#3a7bd5),
-    to(#00d2ff)
-  );
-  background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+// body:before {
+//   position: fixed;
+//   z-index: 1;
+//   top: 0;
+//   display: block;
+//   content: "";
+//   width: 100%;
+//   height: 10px;
+
+//   // background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+// background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+// background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+//   // background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+//   // background-image: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+//   // background-image: linear-gradient(10deg, #ffecd2 0%, #fcb69f 100%);
+//   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+// }
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
