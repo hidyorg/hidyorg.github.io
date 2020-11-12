@@ -3,7 +3,7 @@
     <header id="app-header"></header>
     <main id="app-main">
       <section class="intro-container">
-        <div><span>안녕하세요</span></div>
+        <div><span>안녕하세요. 반갑습니다.</span></div>
       </section>
     </main>
     <footer id="app-footer"></footer>
