@@ -1,15 +1,15 @@
 language: node_js
 node_js:
- - "node"
-
+- node
 cache: yarn
-
 script: yarn build
-
 deploy:
- provider: pages
- skip_cleanup: true
- github_token: $GITHUB_TOKEN
- local_dir: docs
- on:
-   branch: main
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: docs
+  on:
+    branch: main
+notifications:
+  slack:
+    secure: EDtICEAkEKaDthDLGL22MYzyUEnvK6M4mSuj8ro0AU/HbIOxrsu5PYeRG4kajZ74iFRAdl8fPLCCGmjOcBuwO1CIrvpX4fkgnMAK8k1zdqxjlKym/Ct3nALPP1zqX9UDoS1LgnW/4YX+4HhRTFCXp6t3ZAOO8fAoKzhSOYCya2G9cHBeixqXMG2Nn/xksCjAMmZWNRzGJ35JBU5le8FSVcsXcnZf1Dgs222qAzx9hgZF9Gl2kp4wK3+4MYQmQH9rrkKkmf44Mnl0R4Hs/IC+Fx6a8KIUQ7KiisRU5x5s3DJomtCNpmmOkSgihZEFpRO50DWffKkqCAVpSZzssRG+GLtFwNteJsZ3EVpoY4vl79sXPNanPfW0EaOPXuuLyrM1+oskhfp8SC9P8TsJTjYar90uP1anjrwjLBnfjqjDFTPmND6j/bOeUYjdm2JCIE2AcIH/PHeI+1UUuIEgyUtX5iHv76f4sbvInDgmBrpndwCfMPC6awoPJJYEsps8PZnsP5Tzr3+U54klbKs3VRniR/f+2cRaTW5qgw8H2oXfLlj3/+LaaTy4PyehHz050niKtJjz84J6/fzm4NmN1wdwkjbbAjvBoXwg8F8j54xIDTU+RVleZSTgOXVcsgezoWXS2wu6ZzCQHIfWF+D04VkpX6hQrTZo2/tlJCsAQYPQYtw=
