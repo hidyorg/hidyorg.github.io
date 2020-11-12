@@ -1,0 +1,37 @@
+body{
+  background-color: #222;
+}
+body {
+  font-size: 16px;
+  word-break: keep-all;
+  font-family: Spoqa Han Sans, sans-serif;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  padding-bottom: 2rem;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mot2 {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.mot3 {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1194px;
+  padding: 0 16px;
+  width: 100%;
+}

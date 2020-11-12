@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Spoqa Han San';
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+	src: local('Spoqa Han Sans Thin')
+  url('~@/assets/fonts/spoqa/SpoqaHanSansThin.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansThin.woff') format('woff'),  /* Pretty Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansThin.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+ 
+@font-face {
+    font-family: "Spoqa Han San";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Spoqa Han Sans Light')
+    url('~@/assets/fonts/spoqa/SpoqaHanSansLight.woff2') format('woff2'), /* Super Modern Browsers */
+    url('~@/assets/fonts/spoqa/SpoqaHanSansLight.woff') format('woff'),  /* Pretty Modern Browsers */
+    url('~@/assets/fonts/spoqa/SpoqaHanSansLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+  }
+
+ 
+@font-face {
+  font-family: "Spoqa Han San";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Spoqa Han Sans Regular')
+  url('~@/assets/fonts/spoqa/SpoqaHanSansRegular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansRegular.woff') format('woff'),  /* Pretty Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Spoqa Han San";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Spoqa Han Sans Bold')
+  url('~@/assets/fonts/spoqa/SpoqaHanSansBold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansBold.woff') format('woff'),  /* Pretty Modern Browsers */
+  url('~@/assets/fonts/spoqa/SpoqaHanSansBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+ 
+}
