@@ -3,9 +3,11 @@
     <main id="app-main" class="container">
       <section>
         <h1>
-          Nice To meet you!<br />
-          We are <span class="big-heading">Alley</span
-          ><span class="period-mark">.</span>
+          안녕하세요!<br />
+          저희는 <span class="big-heading">빵긋</span>입니다<span
+            class="period-mark"
+            >.</span
+          >
         </h1>
         <p class="big-paragraph">
           고객에게 지역 빵집을 소개시켜주며, 빵이 나오기 전에 고객이 미리 예약을
@@ -15,12 +17,12 @@
         </p>
       </section>
       <section>
-        <h2>Be set to be released<span class="period-mark">.</span></h2>
+        <h2>곧 출시될 예정입니다<span class="period-mark">.</span></h2>
       </section>
       <section>
         <h2>
           <a class="special-anchor" href="mailto:doyoung0205@naver.com"
-            >Please send it via e-mail</a
+            >관심이 있으신 분은 이메일 보내주세요.</a
           >
         </h2>
       </section>
@@ -33,23 +35,6 @@ export default Vue.extend({});
 </script>
 
 <style lang="scss">
-// body:before {
-//   position: fixed;
-//   z-index: 1;
-//   top: 0;
-//   display: block;
-//   content: "";
-//   width: 100%;
-//   height: 10px;
-
-//   // background: linear-gradient(90deg, #3a7bd5, #00d2ff);
-// background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-// background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-//   // background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-//   // background-image: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
-//   // background-image: linear-gradient(10deg, #ffecd2 0%, #fcb69f 100%);
-//   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-// }
 #app {
   display: flex;
   justify-content: center;
