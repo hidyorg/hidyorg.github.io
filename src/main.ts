@@ -10,11 +10,11 @@ import store from "./store";
 Vue.config.productionTip = false;
 
 Vue.use(VueAnalytics, {
-  id: "G-SZRG4R6P3L" // Google Analytics의 Tracking ID를 넣어준다
+  id: "UA-183952985-1" // Google Analytics의 Tracking ID를 넣어준다
 });
 Vue.use(VueGtag, {
   config: {
-    id: "G-SZRG4R6P3L" // Google Analytics의 Tracking ID를 넣어준다
+    id: "UA-183952985-1" // Google Analytics의 Tracking ID를 넣어준다
   }
 });
 
