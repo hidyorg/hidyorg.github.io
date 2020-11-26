@@ -14,7 +14,7 @@ Vue.use(VueAnalytics, {
 });
 Vue.use(VueGtag, {
   config: {
-    id: "UA-183952985-1" // Google Analytics의 Tracking ID를 넣어준다
+    id: "GTM-WJ8G2WK" // Google Analytics의 Tracking ID를 넣어준다
   }
 });
 
