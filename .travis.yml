@@ -6,6 +6,8 @@ cache: yarn
 
 script: yarn build
 
+before_deploy: yarn
+
 deploy:
  provider: pages
  skip_cleanup: true
