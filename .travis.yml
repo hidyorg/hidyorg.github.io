@@ -4,9 +4,10 @@ node_js:
 
 cache: yarn
 
-script: yarn build
+install:
+  - yarn
 
-before_deploy: yarn
+script: yarn build
 
 deploy:
  provider: pages
