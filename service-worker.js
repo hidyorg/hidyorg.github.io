@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hidyorg.github.io/precache-manifest.b27beaeff24fa4e464497a6d2efb3f05.js"
+  "/hidyorg.github.io/precache-manifest.8af03984a732f9051f72872b5a829d3d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "doyoung0205.github.io"});
