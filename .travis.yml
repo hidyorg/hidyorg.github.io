@@ -10,9 +10,11 @@ install:
 script: yarn build
 
 deploy:
+ fqdn: breadgood.com
  provider: pages
  skip_cleanup: true
  github_token: $GITHUB_TOKEN
+ keep_history: true
  local_dir: docs
  on:
    branch: main
